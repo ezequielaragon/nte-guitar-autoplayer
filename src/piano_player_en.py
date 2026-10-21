@@ -112,7 +112,7 @@ def load_midi_events(path, track, transpose, tagged_out=False):
     """Events (t, 'on'/'off', note). With tagged_out=True the track index is appended."""
     import mido
 
-    mid = mido.MidiFile(path)
+    mid = mido.MidiFile(path, clip=True)
     if track is None:
         wanted = set(range(len(mid.tracks)))
     else:
@@ -153,7 +153,7 @@ def note_tracks(path):
     import mido
 
     res = []
-    for i, tr in enumerate(mido.MidiFile(path).tracks):
+    for i, tr in enumerate(mido.MidiFile(path, clip=True).tracks):
         n = sum(1 for m in tr if m.type == "note_on" and m.velocity > 0 and m.channel != 9)
         if n:
             res.append((i, tr.name or "(no name)", n))
@@ -298,7 +298,7 @@ def ask(prompt, default, cast):
 def list_tracks(path):
     import mido
 
-    mid = mido.MidiFile(path)
+    mid = mido.MidiFile(path, clip=True)
     for i, tr in enumerate(mid.tracks):
         notes = sum(1 for m in tr if m.type == "note_on" and m.velocity > 0)
         print(f"[{i}] {tr.name or '(no name)'} - {notes} notes")

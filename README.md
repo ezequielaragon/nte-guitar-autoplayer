@@ -6,6 +6,8 @@ Plays MIDI files automatically on the in-game **Guitar Mode** instrument (36 key
 
 ![Guitar Mode keyboard layout](docs/screenshot.png)
 
+**Download / Descargar:** [PianoPlayer_EN.zip (English)](https://github.com/ezequielaragon/nte-guitar-autoplayer/raw/main/download/PianoPlayer_EN.zip) · [PianoPlayer_ES.zip (Español)](https://github.com/ezequielaragon/nte-guitar-autoplayer/raw/main/download/PianoPlayer_ES.zip)
+
 ---
 
 ## English
@@ -22,7 +24,7 @@ Plays MIDI files automatically on the in-game **Guitar Mode** instrument (36 key
 
 ### Quick start
 
-1. Download **`PianoPlayer_EN.zip`** (English) or **`PianoPlayer_ES.zip`** (Spanish) from the **Releases** page and extract it. You get the `.exe` and an empty `midis` folder.
+1. Download **[PianoPlayer_EN.zip](https://github.com/ezequielaragon/nte-guitar-autoplayer/raw/main/download/PianoPlayer_EN.zip)** (English) or **[PianoPlayer_ES.zip](https://github.com/ezequielaragon/nte-guitar-autoplayer/raw/main/download/PianoPlayer_ES.zip)** (Spanish) and extract it. You get the `.exe` and an empty `midis` folder.
 2. Download MIDI files from **[Online Sequencer](https://onlinesequencer.net/sequences)** and put them in the `midis` folder.
 3. Double-click the `.exe` and accept the administrator prompt. Without admin rights, the game ignores the keys.
 4. Pick a song number, then a mode.
@@ -124,7 +126,7 @@ Toca archivos MIDI automáticamente en el instrumento del **Guitar Mode** de *Ne
 
 ### Uso rápido
 
-1. Descargá **`PianoPlayer_ES.zip`** (español) o **`PianoPlayer_EN.zip`** (inglés) desde la sección **Releases** y descomprimilo. Trae el `.exe` y una carpeta `midis` vacía.
+1. Descargá **[PianoPlayer_ES.zip](https://github.com/ezequielaragon/nte-guitar-autoplayer/raw/main/download/PianoPlayer_ES.zip)** (español) o **[PianoPlayer_EN.zip](https://github.com/ezequielaragon/nte-guitar-autoplayer/raw/main/download/PianoPlayer_EN.zip)** (inglés) y descomprimilo. Trae el `.exe` y una carpeta `midis` vacía.
 2. Descargá los MIDI de **[Online Sequencer](https://onlinesequencer.net/sequences)** y ponelos en la carpeta `midis`.
 3. Abrí el `.exe` con doble clic y aceptá el permiso de administrador. Sin ese permiso, el juego ignora las teclas.
 4. Elegí el número de canción y después el modo.

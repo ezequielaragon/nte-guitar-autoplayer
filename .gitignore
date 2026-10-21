@@ -1,0 +1,9 @@
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.exe
+# MIDI files are not included in this repository (copyright)
+*.mid
+*.midi

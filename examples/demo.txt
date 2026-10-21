@@ -1,0 +1,6 @@
+bpm=120
+# Demo: scale + chords to check that the keys work
+# Demo: escala + acordes para probar que las teclas andan
+C4 D4 E4 F4 G4 A4 B4 C5:2
+C5 B4 A4 G4 F4 E4 D4 C4:2
+C4+E4+G4:2 F4+A4+C5:2 G4+B4+D5:2 C4+E4+G4+C5:4
